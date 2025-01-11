@@ -1,0 +1,324 @@
+:root{
+    --black: #393f50;
+    --white: #f2eee7;
+    --brown: #ebc08d;
+    --blue: #435892;
+}
+
+body{
+    background-color: var(--white);
+    color: var(--black);
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+strong{
+    color: var(--blue);
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--brown);
+    margin-bottom: 3%;
+    padding: 20px;
+    min-height: 50px;
+}
+
+header img{
+    margin-left: 1rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+header nav{
+    display: flex;
+    gap: 2rem;
+}
+
+
+header a{
+    outline: none;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.btns-header{
+    margin-right: 1rem;
+}
+
+.btn-header{
+    width: 30px;
+    height: 30px;
+    gap: 1.5rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-header:hover{
+    color: var(--black);
+}
+
+#home,#parceiros,#a-empresa,#contatos{
+    border-top: 2px solid var(--red);
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts-s1{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts-s1 h1{
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+.texts-s1 p{
+    font-size: 1rem;
+    text-align: justify;
+    color: var(--black);
+}
+
+#produtos .h1-s2{
+    text-align: center;
+    color: var(--blue);
+    font-size: 2rem;
+}
+
+.texts-s2 p{
+    color: var(--black);
+}
+
+.h2-s2{
+    color: var(--blue);
+}
+
+.flexbox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.flexbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.flexbox1,.flexbox2 p{
+    text-align: justify;
+}
+
+#parceiros h1{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+#parceiros img{
+    gap: 2rem;
+    width: 20%;
+    height: 20%;
+}
+
+.imgs-s3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-2{
+    text-align: center;
+}
+
+.text-s4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.text-s4 p{
+    text-align: justify;
+}
+
+.h1-s4{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+.missao-visao-s4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.h2-s4{
+    color: var(--blue);
+}
+
+.missao-visao-s4 p{
+    color: var(--black);
+}
+
+.flexbox-s4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.missao,
+.visao,
+.valores{
+    color: var(--black);
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.img-1{
+    margin-right: 15px;
+}
+
+.img-2{
+    margin-left: 15px;
+}
+
+.missao,
+.visao,
+.texts-s4{
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.missao,
+.visao,
+.texts-s4 p{
+    text-align: center justify;
+}
+
+.texts-s4 h2{
+    color: var(--blue);
+}
+
+.valores{
+    color: var(--black);
+}
+
+.valores h1{
+    text-align: center;
+    color: var(--blue);
+}
+
+.t-s4{
+    margin-bottom: 1rem;
+    color: var(--blue);
+}
+
+.h1-s4{
+    color: var(--blue);
+}
+
+.Contatos{
+    font-size: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--brown);
+    padding: 10px;
+}
+
+.p-linha{
+    text-align: center;
+}
+
+.contatos{
+    color: var(--black);
+}
+
+.form{
+    margin-right: 20px;
+}
+
+#contatos h1{
+    text-align: center;
+    color: var(--blue);
+}
+
+.inputs-footer{
+    width: 22rem;
+    background-color: var(--white);
+    border: solid var(--black) 2px;
+}
+
+#contatos{
+    background-color: var(--brown);
+}
+
+.i-d{
+    margin-right: 5px;
+}
+
+.i-o{
+    margin-left: 5px;
+}
+
+#contatos input{
+    gap: 1rem;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: solid var(--black) 2px;
+    background-color: var(--white);
+}
+
+.textarea{
+    outline: none;
+    border-radius: 10px;
+    border: solid var(--black) 2px;
+    width: 20rem;
+    height: 7rem;
+    background-color: var(--white);
+}
+
+.btn-footer{
+    border-radius: 10px;
+    padding: 10px;
+    border: solid var(--gray) 2px;
+}
+.mensagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
